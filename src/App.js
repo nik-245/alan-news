@@ -6,7 +6,7 @@ import NewsCards from './component/newscards/NewsCards';
 import useStyles from './style';
 import wordsToNumbers from 'words-to-numbers';
 
-const alankey = '7cdbe3bd8bd21fc4d5f532b79da390c52e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alankey = '88873fe9f797a8f272d8cabac6220f992e956eca572e1d8b807a3e2338fdd0dc/stage';
 function App() {
     const [newsArticles , setnewsArticles] = useState([]);
     const [activeArticle , setActiveArticle] = useState(-1);
